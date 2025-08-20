@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orange Point – Fishing Rod Protectors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    header {
+      background: #ff6600;
+      color: white;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .gallery img {
+      max-width: 300px;
+      margin: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    .price {
+      font-size: 22px;
+      margin: 15px 0;
+      font-weight: bold;
+    }
+    .desc {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      font-size: 18px;
+    }
+    .contact {
+      background: #333;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .paypal-btn {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Orange Point – Premium Fishing Rod Protectors
+</header>
+
+<div class="desc">
+  <p>Handmade protectors for fishing rods, crafted from genuine leather. Durable, stylish, and perfect for protecting your equipment during transport. Available in different colors.</p>
+</div>
+
+<div class="gallery">
+  <img src="images/70BB2EBE-ACD2-4BCD-BC70-202EDC8C3A94.jpeg" alt="Orange Point protector">
+  <img src="images/455E8BEB-6AD9-4744-986B-6E0E388375DD.jpeg" alt="Orange Point protector">
+  <img src="images/D4CEEB71-DC43-4DAA-9CD8-7A1EBC7C3725.jpeg" alt="Orange Point protector">
+</div>
+
+<div class="price">
+  Price: 40 BGN / ~20.45 EUR
+</div>
+
+<div class="paypal-btn">
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="ilia_klinkov@outlook.com">
+    <input type="hidden" name="item_name" value="Orange Point – Fishing Rod Protector">
+    <input type="hidden" name="amount" value="20.45">
+    <input type="hidden" name="currency_code" value="EUR">
+    <input type="submit" value="Buy with PayPal">
+  </form>
+</div>
+
+<div class="contact">
+  <p>Contact: +359 882 763 356</p>
+  <p>Email: ilia_klinkov@outlook.com</p>
+</div>
+
+</body>
+</html>
